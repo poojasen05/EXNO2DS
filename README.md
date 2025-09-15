@@ -33,6 +33,7 @@ a
 <img width="1418" height="476" alt="image" src="https://github.com/user-attachments/assets/c89771fb-53da-4d07-aa01-e4e9b154a924" />
 ```
 a.info()
+
 ```
 <img width="435" height="392" alt="image" src="https://github.com/user-attachments/assets/5d30d6c6-eb87-4e0d-9855-57bfe399d2a2" />
 ```
