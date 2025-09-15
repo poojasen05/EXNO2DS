@@ -29,22 +29,39 @@ import numpy as np
 import seaborn as sns
 a=pd.read_csv("/content/titanic_dataset.csv")
 a
+
 ```
 <img width="1418" height="476" alt="image" src="https://github.com/user-attachments/assets/c89771fb-53da-4d07-aa01-e4e9b154a924" />
+
+
 ```
 a.info()
+
+
 ```
 <img width="435" height="392" alt="image" src="https://github.com/user-attachments/assets/5d30d6c6-eb87-4e0d-9855-57bfe399d2a2" />
+
+
 ```
 a.describe()
+
+
 ```
 <img width="815" height="334" alt="image" src="https://github.com/user-attachments/assets/f99db55d-afdf-4260-a39a-bdf123365ced" />
+
+
 ```
 a.dtypes
+
+
 ```
 <img width="278" height="507" alt="image" src="https://github.com/user-attachments/assets/362be858-cb36-4dfc-828a-6af53ae7a6a8" />
+
+
 ```
 a.shape
+
+
 ```
 <img width="170" height="47" alt="image" src="https://github.com/user-attachments/assets/0b3b0954-2ddc-4066-ba1a-1bb2459e0aec" />
 ```
