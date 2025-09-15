@@ -117,6 +117,72 @@ a
 
 ```
 
+sns.catplot(x="Gender",col="Survived",kind="count",data=a)
+
+```
+
+<img width="1096" height="489" alt="image" src="https://github.com/user-attachments/assets/6b029986-65a8-4101-939e-ae603b057065" />
+
+```
+
+a.boxplot(column="Age",by="Survived")
+
+```
+
+<img width="578" height="457" alt="image" src="https://github.com/user-attachments/assets/f94045bf-92e3-4e73-84c0-999afe49fd23" />
+
+```
+
+sns.scatterplot(x=a["Age"],y=a["Fare"])
+
+```
+
+<img width="593" height="433" alt="image" src="https://github.com/user-attachments/assets/641b0688-a275-4437-a57c-32a6814b4d97" />
+
+```
+
+plt=sns.boxplot(x="Pclass",y="Age",hue="Gender",data=a)
+
+```
+
+<img width="585" height="421" alt="image" src="https://github.com/user-attachments/assets/6158f3c7-d1f2-4470-8eb9-7fbf0af4618a" />
+
+```
+
+sns.catplot(x="Pclass",y="Age",hue="Gender",col="Survived",kind="box",data=a)
+
+```
+
+<img width="593" height="276" alt="image" src="https://github.com/user-attachments/assets/289fa90a-5550-480a-b620-c712b1ab724d" />
+
+```
+
+corr=a.corr(numeric_only=True)
+sns.heatmap(corr,annot=True)
+
+```
+
+![Uploading image.png…]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
