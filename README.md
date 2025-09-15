@@ -211,4 +211,6 @@ sns.heatmap(corr,annot=True)
         
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+
+Exploratory Data Analysis on the given data set is successful
+        
