@@ -162,7 +162,8 @@ sns.heatmap(corr,annot=True)
 
 ```
 
-![Uploading image.png…]()
+<img width="549" height="413" alt="Screenshot 2025-09-15 121209" src="https://github.com/user-attachments/assets/dff991b8-1632-4708-a4b3-3ab767bd90e3" />
+
 
 
 
